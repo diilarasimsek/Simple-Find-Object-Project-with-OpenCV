@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-# your_name is the name I give to the variable representing the whole picture. (Because it's a picture from the movie Your Name)
+# your_name is the name I give to the variable representing the whole picture.
 # After you copy the file path of your picture, you can paste it in the brackets below.
 your_name = cv.imread(r'C:\Users\user\Desktop\Kodlama\image processing\city.png', cv.IMREAD_UNCHANGED)
 # needle_name is the name I give to the variable that represents the selected part from the picture.
